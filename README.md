@@ -1,4 +1,4 @@
-# MANTRA — Ocean Intelligence
+# MANTRA — Ocean Intelligence 
 
 MANTRA is a web-based ocean intelligence and visualization platform built with **React + Vite + CesiumJS** on the frontend and **Python + FastAPI** on the backend.
 
