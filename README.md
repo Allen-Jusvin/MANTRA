@@ -102,7 +102,7 @@ git --version
 After creating the GitHub repository:
 
 ```powershell
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/Allen-Jusvin/MANTRA.git)
+git clone https://github.com/Allen-Jusvin/MANTRA.git
 cd MANTRA
 ```
 
