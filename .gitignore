@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+# Environment / secrets
+.env
+*.env
+# Node
+node_modules/
+frontend/node_modules/
+# Vite
+dist/
+frontend/dist/
+# Logs
+*.log
+# OS
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/
+.idea/
+# Caches
+.cache/
+frontend/node_modules/.vite/

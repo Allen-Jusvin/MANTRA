@@ -1,0 +1,483 @@
+.argo-page {
+  min-height: 100vh;
+  background: #06121d;
+  color: #e8f4f8;
+  overflow-y: auto;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.argo-header {
+  height: 76px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 28px;
+
+  border-bottom: 1px solid
+    rgba(255, 255, 255, 0.08);
+
+  background: #081824;
+}
+
+.argo-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.argo-title h1 {
+  margin: 0;
+
+  font-size: 18px;
+
+  letter-spacing: 2px;
+}
+
+.argo-title span {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #7e9aaa;
+
+  font-size: 11px;
+}
+
+.argo-title-icon {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 210, 255, 0.12);
+}
+
+
+/* BACK BUTTON */
+
+.argo-back-button {
+  width: 38px;
+  height: 38px;
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.1);
+
+  border-radius: 8px;
+
+  background: #0b1f2d;
+
+  color: #dcebf0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.argo-back-button:hover {
+  background: #123447;
+}
+
+
+/* STATUS */
+
+.argo-status {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  font-size: 11px;
+
+  letter-spacing: 1px;
+}
+
+.argo-status-dot {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #36e69a;
+}
+
+
+/* =========================================
+   MAIN
+========================================= */
+
+.argo-main {
+  display: grid;
+
+  grid-template-columns:
+    330px 1fr;
+
+  min-height:
+    calc(100vh - 76px);
+}
+
+
+/* =========================================
+   FLOAT LIST
+========================================= */
+
+.argo-floats-panel {
+  border-right: 1px solid
+    rgba(255, 255, 255, 0.08);
+
+  padding: 24px;
+
+  background: #071622;
+
+  overflow-y: auto;
+}
+
+.section-heading {
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.section-heading span,
+.float-header span {
+  font-size: 10px;
+
+  letter-spacing: 1.5px;
+
+  color: #708897;
+}
+
+.section-heading h2,
+.float-header h2 {
+  margin: 5px 0 0;
+
+  font-size: 20px;
+}
+
+.section-heading > strong {
+  font-size: 20px;
+}
+
+
+/* FLOAT CARDS */
+
+.argo-float-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.argo-float-card {
+  width: 100%;
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.07);
+
+  background: #0a1b28;
+
+  color: #dcebf0;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.argo-float-card:hover,
+.argo-float-card.selected {
+  border-color:
+    rgba(0, 210, 255, 0.5);
+
+  background: #0d2635;
+}
+
+.float-icon {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  background:
+    rgba(0, 210, 255, 0.1);
+}
+
+.float-info {
+  flex: 1;
+}
+
+.float-info strong,
+.float-info span,
+.float-info small {
+  display: block;
+}
+
+.float-info strong {
+  font-size: 13px;
+}
+
+.float-info span {
+  margin-top: 3px;
+
+  color: #8ba2ae;
+
+  font-size: 11px;
+}
+
+.float-info small {
+  margin-top: 4px;
+
+  color: #607987;
+
+  font-size: 10px;
+}
+
+
+/* =========================================
+   DETAILS
+========================================= */
+
+.argo-detail-panel {
+  padding: 28px;
+
+  overflow-y: auto;
+}
+
+.float-header {
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  align-items: center;
+
+  margin-bottom: 22px;
+}
+
+.cycle-badge {
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(0, 210, 255, 0.1);
+
+  color: #70dfff;
+
+  font-size: 11px;
+}
+
+
+/* =========================================
+   INFO CARDS
+========================================= */
+
+.argo-info-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.argo-info-card {
+  padding: 16px;
+
+  border-radius: 10px;
+
+  background: #0a1b28;
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.07);
+}
+
+.argo-info-card svg {
+  margin-bottom: 12px;
+}
+
+.argo-info-card span,
+.argo-info-card strong,
+.argo-info-card small {
+  display: block;
+}
+
+.argo-info-card span {
+  color: #708897;
+
+  font-size: 9px;
+
+  letter-spacing: 1px;
+}
+
+.argo-info-card strong {
+  margin-top: 6px;
+
+  font-size: 15px;
+}
+
+.argo-info-card small {
+  margin-top: 3px;
+
+  color: #7d95a2;
+
+  font-size: 10px;
+}
+
+
+/* =========================================
+   CHART
+========================================= */
+
+.argo-chart-card {
+  margin-bottom: 18px;
+
+  padding: 18px;
+
+  border-radius: 12px;
+
+  background: #091a27;
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.07);
+}
+
+.chart-heading {
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  align-items: center;
+
+  margin-bottom: 12px;
+}
+
+.chart-heading > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.chart-heading strong {
+  display: block;
+
+  font-size: 13px;
+}
+
+.chart-heading span {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #708897;
+
+  font-size: 10px;
+}
+
+
+/* =========================================
+   MESSAGES
+========================================= */
+
+.argo-message,
+.argo-error,
+.argo-loading,
+.argo-empty {
+  color: #7d95a2;
+
+  text-align: center;
+
+  padding: 30px;
+}
+
+.argo-error {
+  color: #ff7b7b;
+}
+
+.argo-loading {
+  margin-top: 20px;
+}
+
+.argo-empty {
+  min-height: 500px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.argo-empty h2 {
+  margin: 15px 0 5px;
+}
+
+.argo-empty p {
+  color: #718896;
+
+  max-width: 350px;
+
+  text-align: center;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+  .argo-main {
+    grid-template-columns: 1fr;
+  }
+
+  .argo-floats-panel {
+    border-right: none;
+
+    border-bottom: 1px solid
+      rgba(255, 255, 255, 0.08);
+  }
+
+  .argo-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
