@@ -1,6 +1,6 @@
-# SAMUDRA — Ocean Intelligence
+# MANTRA — Ocean Intelligence
 
-SAMUDRA is a web-based ocean intelligence and visualization platform built with **React + Vite + CesiumJS** on the frontend and **Python + FastAPI** on the backend.
+MANTRA is a web-based ocean intelligence and visualization platform built with **React + Vite + CesiumJS** on the frontend and **Python + FastAPI** on the backend.
 
 The application provides an interactive 3D globe and ocean-data dashboard for exploring marine information such as:
 
@@ -19,7 +19,7 @@ The application provides an interactive 3D globe and ocean-data dashboard for ex
 ## Project Structure
 
 ```text
-SAMUDRA/
+MANTRA/
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
@@ -68,7 +68,7 @@ SAMUDRA/
 
 ### Data / Services
 
-SAMUDRA currently integrates external marine-data and mapping services used by the project, including:
+MANTRA currently integrates external marine-data and mapping services used by the project, including:
 
 - Copernicus Marine
 - Global Fishing Watch
