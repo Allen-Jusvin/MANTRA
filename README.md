@@ -102,11 +102,10 @@ git --version
 After creating the GitHub repository:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/Allen-Jusvin/MANTRA.git)
+cd MANTRA
 ```
 
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your GitHub username and repository name.
 
 ## 2. Backend Setup
 
